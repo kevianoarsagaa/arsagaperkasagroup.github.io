@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arsaga Perkasa Group — Ekspor Coffee</title>
+  <meta name="description" content="Kopi Gayo specialty — eksportir kopi arabika Gayo. Profil, produk, spesifikasi teknis, sertifikasi, dan katalog unduhan." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--accent:#6b4226;--accent-2:#a67c52}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+    .hero-mask{background:linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.55));}
+    .chip{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.06)}
+    .scroll-hidden::-webkit-scrollbar{display:none}
+    /* Arrow base style (kept visible on mobile; positioned on top of slider on small screens) */
+    .slider-arrow{background:white;border:1px solid rgba(0,0,0,0.06);box-shadow:0 6px 14px rgba(20,20,20,0.06)}
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 bg-white/40 backdrop-blur-sm border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-full bg-[linear-gradient(135deg,#6b4226,#a67c52)] flex items-center justify-center text-white font-bold">G</div>
+        <div>
+          <a class="text-lg font-semibold tracking-wide">Arsaga Perkasa Group</a>
+          <div class="text-xs text-gray-500">Arabica gayo — robusta gayo — roasted — Specialty</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 items-center text-sm text-gray-600">
+        <a href="#about" class="hover:text-gray-900">Tentang</a>
+        <a href="#products" class="hover:text-gray-900">Produk</a>
+        <a href="#origin" class="hover:text-gray-900">Asal & Proses</a>
+        <a href="#certs" class="hover:text-gray-900">Sertifikasi</a>
+        <a href="#export" class="hover:text-gray-900">Ekspor & Spesifikasi</a>
+        <a href="#testimoni" class="hover:text-gray-900">Testimoni</a>
+        <a href="#contact" class="hover:text-gray-900">Kontak</a>
+      </nav>
+      <div class="md:hidden">
+        <button onclick="document.getElementById('menu').classList.toggle('hidden')" aria-label="menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="menu" class="hidden md:hidden bg-white border-t border-gray-100">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#about">Tentang</a>
+        <a href="#products">Produk</a>
+        <a href="#origin">Asal & Proses</a>
+        <a href="#certs">Sertifikasi</a>
+        <a href="#export">Ekspor & Spesifikasi</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#contact">Kontak</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative">
+    <div class="h-[60vh] md:h-[75vh] w-full bg-cover bg-center hero-mask" style="background-image:url('assets/petanikopi.png');">
+      <div class="absolute inset-0 bg-black/25"></div>
+      <div class="relative z-10 max-w-6xl mx-auto px-6 h-full flex items-center">
+        <div class="text-white max-w-2xl">
+          <span class="inline-block bg-black/35 px-3 py-1 rounded-full text-sm tracking-wide">Single Origin — Gayo, Aceh</span>
+          <h1 class="mt-6 text-4xl md:text-5xl font-extrabold leading-tight">Kopi Gayo Premium — Dari Kebun ke Kontainer</h1>
+          <p class="mt-4 text-lg text-gray-200">Kami mengekspor arabika Gayo,robusta gayo berkualitas Cocok tinggi untuk memenuhi permintaan pasar luar negeri</p>
+          <div class="mt-6 flex gap-3">
+            <a href="#products" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold shadow chip">Lihat Produk</a>
+            <a href="#export" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-semibold border border-white/20">Spesifikasi Ekspor</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-6xl mx-auto px-6 -mt-12">
+    <!-- ABOUT -->
+    <section id="about" class="bg-white rounded-2xl p-8 shadow-lg">
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+        <div>
+          <h2 class="text-2xl font-bold">Kopi Gayo & Filosofi Kami</h2>
+          <p class="mt-3 text-gray-700">Berasal dari dataran tinggi Gayo, Aceh — kopi kami ditanam di ketinggian 1.200–1.700 mdpl oleh petani lokal. Fokus kami: kualitas konsisten, traceability, dan praktik pertanian berkelanjutan.</p>
+          <ul class="mt-4 space-y-2 text-sm text-gray-600">
+            <li>☕ Varietas: Arabika Gayo 3 (Ateng Super), Gayo Longberry,Gayo 1.</li>
+            <li>🌱 Praktik: agroforestry & reduced chemical use</li>
+            <li>📦 Minimum Order Quantity: 1 kontainer (opsi sample tersedia)</li>
+          </ul>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <img src="assets/aa.png" alt="Kopi Gayo" class="w-full h-64 object-cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS SLIDER WITH ARROWS -->
+    <section id="products" class="mt-8 relative">
+      <h3 class="text-xl font-semibold">Produk Kami</h3>
+      <p class="text-sm text-gray-600 mt-1">Geser atau gunakan tombol untuk melihat pilihan grade dan proses.</p>
+      <div class="relative mt-4">
+        <!-- Arrow buttons (visible on mobile and desktop) -->
+        <button type="button" onclick="scrollProducts(-1)" aria-label="Produk sebelumnya" class="slider-arrow absolute z-20 left-2 sm:-left-4 top-2 sm:top-1/2 sm:-translate-y-1/2 rounded-full p-2">◀</button>
+        <button type="button" onclick="scrollProducts(1)" aria-label="Produk berikutnya" class="slider-arrow absolute z-20 right-2 sm:-right-4 top-2 sm:top-1/2 sm:-translate-y-1/2 rounded-full p-2">▶</button>
+
+        <!-- Slider -->
+        <div id="product-slider" class="flex overflow-x-auto scroll-hidden gap-6 snap-x snap-mandatory pb-4">
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/1.jpg" alt="Green Beans" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">Green Beans arabica — Screen 15-18 </h4>
+            <p class="text-xs text-gray-500">Grade A |  Semi-washed</p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/3.jpg" alt="Washed Gayo" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">Green Beans arabica — Screen 15-18</h4>
+            <p class="text-xs text-gray-500">Grade B |  Semi-washed</p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/6.jpg" alt="Roasted OEM" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">Green Beans arabica — Screen 15-18</h4>
+            <p class="text-xs text-gray-500">Grade C |  Semi-washed</p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/2.jpg" alt="Honey Process" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">Green Beans arabica — Screen 15-18</h4>
+            <p class="text-xs text-gray-500">Specialty | full-washed</p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/rosted.jpg" alt="Peaberry Gayo" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">roasted arabica</h4>
+            <p class="text-xs text-gray-500">Specialty | semi-washed</p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/cc.jpg" alt="Decaf Gayo" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">Specialty </h4>
+            <p class="text-xs text-gray-500">natural | honey | wine </p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+
+          <article class="min-w-[280px] snap-center border rounded-2xl p-5 shadow-sm bg-white">
+            <img src="assets/rempah.png" alt="Decaf Gayo" class="w-full h-40 object-cover rounded-lg">
+            <h4 class="mt-3 font-semibold">rempah-rempah </h4>
+            <p class="text-xs text-gray-500"> pinang | kemiri </p>
+            <p class="mt-2 text-gray-600 text-sm"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORIGIN -->
+    <section id="origin" class="mt-8 bg-white rounded-2xl p-8 shadow-lg">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="md:col-span-2">
+          <h3 class="text-xl font-semibold">Asal: Dataran Tinggi Gayo</h3>
+          <p class="mt-3 text-gray-700">Gayo terkenal karena ketinggian, curah hujan, dan tanah vulkanik yang kaya. Kombinasi ini memberi kopi karakter kompleks: cokelat, jeruk, bunga, dengan aftertaste bersih.</p>
+          <h4 class="mt-4 font-semibold">Proses & Traceability</h4>
+          <ol class="mt-2 list-decimal ml-5 text-gray-600 text-sm">
+            <li>Pemetikan  oleh petani mitra.</li>
+            <li>Fermentasi & pencucian / pengeringan sesuai lot.</li>
+            <li>Pengujian kualitas di lab & cupping sebelum pengemasan.</li>
+            <li>Batch code & asal tercatat untuk traceability.</li>
+          </ol>
+        </div>
+        <div class="rounded-lg overflow-hidden">
+          <img src="assets/petanikopi.png" alt="Gayo" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTS -->
+    <section id="certs" class="mt-8">
+      <h3 class="text-lg font-semibold">Sertifikasi </h3>
+      <div class="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-4 items-center">
+        <div class="p-4 border rounded-lg text-center">Certificate of Origin</div>
+        <div class="p-4 border rounded-lg text-center">Quality Certificate</div>
+        <div class="p-4 border rounded-lg text-center">Organic Certificate ( soon )</div>
+        <div class="p-4 border rounded-lg text-center">Halal Certificate</div>
+      </div>
+      <p class="mt-3 text-sm text-gray-600">Dokumentasi sertifikat tersedia sesuai lot. Kami mendukung audit & inspeksi buyer pada permintaan — proses manajemen kualitas dilakukan sesuai standar ekspor.</p>
+    </section>
+
+    <!-- EXPORT SPEC -->
+    <section id="export" class="mt-8 bg-white rounded-2xl p-8 shadow-lg">
+      <h3 class="text-xl font-semibold">Ekspor & Spesifikasi Teknis</h3>
+      <div class="grid md:grid-cols-2 gap-6 mt-4">
+        <div>
+          <h4 class="font-semibold">Packing & Logistics</h4>
+          <ul class="mt-2 text-gray-600 text-sm space-y-2">
+            <li>⛟ Packing: 60 kg jute bags / 25 kg inner bags / Vacuum-sealed for roasted</li>
+            <li>📦 Container: 20' / 40' — loading sesuai MOQ</li>
+            <li>🧾 Dokumen: Commercial Invoice, Packing List, Certificate of Origin</li>
+            <li>🧾 payment: T/T L/C </li>
+            <li>🚢 FOB port belawan Medan </li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold">Quality Specs & Samples</h4>
+          <table class="w-full text-sm mt-2">
+            <tbody>
+              <tr><td class="py-2">Moisture</td><td class="py-2 text-right">≤ 12.0%</td></tr>
+              <tr><td class="py-2">Insect-damaged</td><td class="py-2 text-right">≤ 3%</td></tr>
+              <tr><td class="py-2">Bean Size</td><td class="py-2 text-right">Screen 15–18</td></tr>
+            </tbody>
+          </table>
+          <p class="mt-3 text-sm text-gray-600">Samples tersedia (green & roasted). Untuk pemesanan, unduh katalog PDF yang berisi pricelist & payment terms.</p>
+          <div class="mt-4">
+            <a href="/assets/Katalog-Kopi-Gayo.pdf" class="inline-block px-4 py-2 rounded-xl border border-gray-200">Download Katalog (placeholder)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section id="testimoni" class="mt-8 bg-white rounded-2xl p-8 shadow-lg">
+      <h3 class="text-xl font-semibold">Testimoni Klien</h3>
+      <p class="mt-3 text-gray-700">Beberapa pengalaman dari mitra internasional kami:</p>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="p-5 border rounded-xl shadow-sm">
+          <p class="text-gray-700 italic">“Kopi Gayo ini selalu konsisten dalam kualitas. Pelayanan cepat dan dokumentasi ekspor sangat lengkap.”</p>
+          <div class="mt-3 text-sm font-semibold text-gray-800">— Importir, Jerman</div>
+        </div>
+        <div class="p-5 border rounded-xl shadow-sm">
+          <p class="text-gray-700 italic">“Aroma floral dan body full dari green beans Gayo sangat cocok untuk roastery kami. Buyer kami sangat puas.”</p>
+          <div class="mt-3 text-sm font-semibold text-gray-800">— Roastery, Jepang</div>
+        </div>
+        <div class="p-5 border rounded-xl shadow-sm">
+          <p class="text-gray-700 italic">“Profesional, transparan, dan fleksibel dalam negosiasi terms. Mitra jangka panjang yang dapat dipercaya.”</p>
+          <div class="mt-3 text-sm font-semibold text-gray-800">— Distributor, AS</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-8 bg-white rounded-2xl p-8 shadow-lg">
+      <h3 class="text-xl font-semibold">Kontak</h3>
+      <p class="mt-3 text-gray-700">Hubungi kami untuk pemesanan atau informasi lebih lanjut:</p>
+      <ul class="mt-4 text-gray-700 text-sm space-y-2">
+        <li>📧 Email: <a href="mailto:arsagaperkasagroup@gmail.com" class="text-blue-600 hover:underline">arsagaperkasagroup@gmail.com</a></li>
+        <li>📱 WhatsApp: <a href="https://wa.me/62895428273684" target="_blank" class="text-blue-600 hover:underline">+62 895-4282-73684</a></li>
+        <li>📍 Alamat: Takengon, Aceh Tengah, Indonesia</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="mt-12 border-t border-gray-200 py-6 text-center text-sm text-gray-500">
+    © 2025 Arsaga Perkasa Group. All rights reserved.
+  </footer>
+
+  <script>
+    // Scroll the product slider by one card (or a reasonable width) when arrows are clicked.
+    function scrollProducts(direction){
+      const slider = document.getElementById('product-slider');
+      if(!slider) return;
+      // find a card to measure width
+      const card = slider.querySelector('.snap-center');
+      let gap = 24; // default gap for gap-6 in Tailwind (1.5rem => 24px)
+      try{
+        const style = getComputedStyle(slider);
+        if(style.gap){
+          const m = style.gap.match(/([\d.]+)px/);
+          if(m) gap = parseFloat(m[1]);
+        }
+      }catch(e){ /* ignore and use default */ }
+
+      let scrollAmount;
+      if(card){
+        // include margin/gap so next card snaps nicely
+        scrollAmount = Math.round(card.offsetWidth + gap);
+      }else{
+        // fallback: use 80% of visible slider width
+        scrollAmount = Math.round(slider.clientWidth * 0.8);
+      }
+
+      // Perform smooth scroll
+      slider.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+    }
+
+    // optional: support keyboard arrows for convenience
+    document.addEventListener('keydown', (e)=>{
+      const tag = (document.activeElement && document.activeElement.tagName) || '';
+      if(tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return; // don't hijack typing
+      if(e.key === 'ArrowLeft') scrollProducts(-1);
+      if(e.key === 'ArrowRight') scrollProducts(1);
+    });
+
+    // Accessibility: make arrow buttons focusable and give visible focus outline
+    document.querySelectorAll('.slider-arrow').forEach(btn=>{
+      btn.setAttribute('tabindex','0');
+      btn.addEventListener('keydown', (e)=>{
+        if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); }
+      });
+    });
+  </script>
+</body>
+</html>
